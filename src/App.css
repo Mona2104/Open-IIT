@@ -1,0 +1,89 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: chocolate; /* Fallback color */
+  background-image: url('bg1.jpg'); /* Path to your background image */
+  background-size: cover; /* This makes the background image cover the entire screen */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Ensures the body takes the full height of the viewport */
+}
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  margin-left:100px;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.form-toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.link-container {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 8vh; /* Full height of the viewport, adjust as necessary */
+}
+.form-toggle button {
+  width: 50%;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px 10px 0 0;
+}
+
+.form-toggle .active {
+  background-color: #C1542A;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 10px;
+  background-color:  #C1542A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form a {
+  color: chocolate;
+  text-decoration: none;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.form p {
+  text-align: center;
+}
